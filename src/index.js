@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import Upload from './components/Upload';
 import Display from './components/Display';
 import Callback from './components/Callback';
-// import registerServiceWorker from './registerServiceWorker';
+import registerServiceWorker from './registerServiceWorker';
 import { Router, Route, browserHistory } from 'react-router';
 import { requireAuth } from './utils/AuthService';
 
@@ -21,4 +21,4 @@ const Root = () => {
 
 
 ReactDOM.render(<Root />, document.getElementById('root'));
-// registerServiceWorker();
+registerServiceWorker();
